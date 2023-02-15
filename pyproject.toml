@@ -3,7 +3,7 @@
 name = "csv_extractor"
 version = "1.0.0"
 description = "csv extractor"
-authors = ["zhenghongpeng@yahoo.com"]
+authors = ["kevin.peng@accenture.com"]
 
 [tool.black]
 line-length = 120
@@ -20,6 +20,7 @@ known_third_party = ["cognite"]
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
 cognite-extractor-utils = "^4.1.0"
+cognite-extractor-manager = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
 pyinstaller = "^4.7"

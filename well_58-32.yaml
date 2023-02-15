@@ -15,8 +15,8 @@ cognite:
         scopes:
             - ${COGNITE_BASE_URL}/.default
 files:
-    - path: example.csv
-      key-column: Title
+    - path: /Users/kevin.peng/code/cognite/Drilling-rate-of-penetration-prediction/Well_58-32.csv
+      key-column: Depth(ft)
       destination:
-          database: my-db
-          table: my-table
+          database: drillinggeotherma
+          table: well5832
